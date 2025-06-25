@@ -584,10 +584,10 @@
               <div class="intro__top"><span class="intro__span">Мы поможем подобрать</span>
                 <h1 class="intro__title"> <span>станок</span> <br>под вашу задачу</h1>
                 <p class="intro__text">Ответьте на 5 вопросов и получите список моделей</p><a class="intro__link" href="#!">Пройти опрос</a>
-              </div><div class="intro__slider-wrapper">
-<div class="intro__slider" data-slider="intro">
-<div class="swiper-wrapper">
-<div class="swiper-slide slide-green">
+              </div><div id="Carousel-slider">
+<section>
+<div class="Carousel-slider">
+<div class="slider-item slide-green">
 <div class="slide-content">
 <div class="slide-tag">Комбинированный станок</div>
 <h3 class="slide-title">Smart M 12/300 K</h3>
@@ -598,7 +598,7 @@
 <img src="img/content/intro1.png" alt="Smart M 12/300 K" />
 </div>
 </div>
-<div class="swiper-slide slide-dark">
+<div class="slider-item slide-dark">
 <div class="slide-content">
 <div class="slide-tag">Токарный станок</div>
 <h3 class="slide-title">Speed T 40/300</h3>
@@ -610,7 +610,7 @@
 <img src="img/content/intro2.png" alt="Speed T 40/300" />
 </div>
 </div>
-<div class="swiper-slide slide-white">
+<div class="slider-item slide-white">
 <div class="slide-content">
 <div class="slide-tag">Фрезерный центр</div>
 <h3 class="slide-title">VMC 2000 (M)</h3>
@@ -623,62 +623,58 @@
 </div>
 </div>
 </div>
-              <div class="intro__buttons">
-                <div class="swiper-button-next intro__next">
-                  <svg width="50" height="50" aria-hidden="true">
-                    <use xlink:href="#arrow-left"></use>
-                  </svg>
-                </div>
-                <div class="swiper-button-prev intro__prev">
-                  <svg width="50" height="50" aria-hidden="true">
-                    <use xlink:href="#arrow-left"></use>
-                  </svg>
-                </div>
-              </div></div>
+              <div class="intro__buttons"><button class="Carousel-prev" aria-label="Previous slide">
+                <svg width="50" height="50" aria-hidden="true">
+                  <use xlink:href="#arrow-left"></use>
+                </svg></button>
+<button class="Carousel-next" aria-label="Next slide">
+                <svg width="50" height="50" aria-hidden="true">
+                  <use xlink:href="#arrow-left"></use>
+                </svg></button>
+              </div></section>
+</div>
             </div>
           </div>
         </section>
         <section class="card"> 
           <div class="container"> 
             <div class="card__wrapper"> 
-              <div class="card__slider swiper" data-slider="card">
-                <div class="swiper-wrapper"> 
-                  <div class="swiper-slide slide-dark1"> 
-                    <p class="card__text">Токарная обработка</p>
-                    <ul class="card__list"> 
-                      <li class="card__item">Обрабатывают заготовки от 70 мм.</li>
-                      <li class="card__item">Переналадка — за минуты.</li>
-                      <li class="card__item">Хороши для простых деталей в большом объёме.</li>
-                    </ul><a class="card__link" href="#!">Перейти в каталог</a>
-                    <div class="card__image"> 
-                      <svg width="292" height="225" aria-hidden="true">
-                        <use xlink:href="#card1"></use>
-                      </svg><img src="img/content/card.png" alt="Станок">
-                    </div>
+              <div class="card__slider">  
+                <div class="slider-item slide-dark1"> 
+                  <p class="card__text">Токарная обработка</p>
+                  <ul class="card__list"> 
+                    <li class="card__item">Обрабатывают заготовки от 70 мм.</li>
+                    <li class="card__item">Переналадка — за минуты.</li>
+                    <li class="card__item">Хороши для простых деталей в большом объёме.</li>
+                  </ul><a class="card__link" href="#!">Перейти в каталог</a>
+                  <div class="card__image"> 
+                    <svg width="292" height="225" aria-hidden="true">
+                      <use xlink:href="#card1"></use>
+                    </svg><img src="img/content/card.png" alt="Станок">
                   </div>
-                  <div class="swiper-slide slide-white1">
-                    <p class="card__text">Фрезерная обработка</p>
-                    <ul class="card__list"> 
-                      <li class="card__item">Точность и мощность.</li>
-                      <li class="card__item">Вертикальные, горизонтальные, продольные модели — под разную конфигурацию обработки.</li>
-                    </ul><a class="card__link" href="#!">Перейти в каталог</a>
-                    <div class="card__image"> 
-                      <svg width="292" height="225" aria-hidden="true">
-                        <use xlink:href="#card2"></use>
-                      </svg><img src="img/content/card.png" alt="Станок">
-                    </div>
+                </div>
+                <div class="slider-item slide-white1">
+                  <p class="card__text">Фрезерная обработка</p>
+                  <ul class="card__list"> 
+                    <li class="card__item">Точность и мощность.</li>
+                    <li class="card__item">Вертикальные, горизонтальные, продольные модели — под разную конфигурацию обработки.</li>
+                  </ul><a class="card__link" href="#!">Перейти в каталог</a>
+                  <div class="card__image"> 
+                    <svg width="292" height="225" aria-hidden="true">
+                      <use xlink:href="#card2"></use>
+                    </svg><img src="img/content/card.png" alt="Станок">
                   </div>
-                  <div class="swiper-slide slide-green1"> 
-                    <p class="card__text">Токарно-фрезерная обработка</p>
-                    <ul class="card__list"> 
-                      <li class="card__item">Фрезеровка и точение в одном корпусе.</li>
-                      <li class="card__item">Экономия площади и времени.</li>
-                    </ul><a class="card__link" href="#!">Перейти в каталог</a>
-                    <div class="card__image"> 
-                      <svg width="292" height="225" aria-hidden="true">
-                        <use xlink:href="#card3"></use>
-                      </svg><img src="img/content/card.png" alt="Станок">
-                    </div>
+                </div>
+                <div class="slider-item slide-green1"> 
+                  <p class="card__text">Токарно-фрезерная обработка</p>
+                  <ul class="card__list"> 
+                    <li class="card__item">Фрезеровка и точение в одном корпусе.</li>
+                    <li class="card__item">Экономия площади и времени.</li>
+                  </ul><a class="card__link" href="#!">Перейти в каталог</a>
+                  <div class="card__image"> 
+                    <svg width="292" height="225" aria-hidden="true">
+                      <use xlink:href="#card3"></use>
+                    </svg><img src="img/content/card.png" alt="Станок">
                   </div>
                 </div>
               </div>
@@ -1325,20 +1321,6 @@
               </ul>
             </div>
             <div class="footer__menu">
-              <p class="footer__menu-text">Компания</p>
-              <ul class="footer__list"> 
-                <li class="footer__item"> <a class="footer__link" href="#!">О компании</a></li>
-                <li class="footer__item"> <a class="footer__link" href="#!">Оплата и доставка</a></li>
-                <li class="footer__item"> <a class="footer__link" href="#!">Лицензии</a></li>
-                <li class="footer__item"> <a class="footer__link" href="#!">Новости</a></li>
-                <li class="footer__item"> <a class="footer__link" href="#!">Отзывы</a></li>
-                <li class="footer__item"> <a class="footer__link" href="#!">Вакансии</a></li>
-                <li class="footer__item"> <a class="footer__link" href="#!">Скидки</a></li>
-                <li class="footer__item"> <a class="footer__link" href="#!">Гарантия</a></li>
-                <li class="footer__item"> <a class="footer__link" href="#!">Сотрудничество</a></li>
-              </ul>
-            </div>
-            <div class="footer__menu">
               <p class="footer__menu-text">Сервис и инжиниринг</p>
               <ul class="footer__list"> 
                 <li class="footer__item"> <a class="footer__link" href="#!">О компании</a></li>
@@ -1356,7 +1338,8 @@
         </div>
       </footer>
     </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/micro-slider@1.1.0/dist/micro-slider.min.js"></script>
     <script src="js/vendor.min.js"></script>
     <script src="js/main.min.js"></script>
   </body>
