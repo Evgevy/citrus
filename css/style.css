@@ -9438,19 +9438,36 @@ form .form__box:last-of-type {
   }
 }
 
-.tape__slider.swiper {
-  width: 100%;
-  overflow: visible;
+.tape__slider {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -55vw;
+  margin-right: -55vw;
   margin-bottom: -55px;
+  overflow: visible;
 }
 
-.tape .swiper-wrapper {
-  height: auto;
+.tape .tape__slider-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  will-change: transform;
+  position: relative;
+  z-index: 1;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
 }
 
 .tape .swiper-slide {
   max-width: 500px;
   height: 300px;
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 auto;
+  flex: 0 0 auto;
 }
 
 .tape .swiper-slide .tape-image {
