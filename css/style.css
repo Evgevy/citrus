@@ -9634,6 +9634,10 @@ form .form__box:last-of-type {
   overflow: hidden;
 }
 
+.tools .swiper-slide--m {
+  display: none;
+}
+
 .tools .swiper-slide:hover .slide-image {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
@@ -10176,6 +10180,14 @@ form .form__box:last-of-type {
 
   .creators__name {
     right: 0px;
+  }
+}
+
+@media screen and (max-width: 1495px) {
+  .tools .swiper-slide--m {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
