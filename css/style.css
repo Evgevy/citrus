@@ -4732,16 +4732,22 @@ h2.title {
   height: 500px;
   position: relative;
   width: 100%;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
 }
 
 .intro .Carousel-slider.fullwidth {
   height: 500px;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
 }
 
 .intro .Carousel-slider.fullwidth .slider-item {
   height: 530px;
   line-height: 500px;
   width: 420px;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
 }
 
 .intro .slider-wrapper {
@@ -4754,6 +4760,8 @@ h2.title {
   transform-origin: 0 50%;
   -webkit-perspective: 1000px !important;
   perspective: 1000px !important;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
 }
 
 .intro .slider-item {
@@ -4767,6 +4775,16 @@ h2.title {
   overflow: hidden;
   border-radius: 32px;
   padding: 30px;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
+}
+
+.intro .slide-image {
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  pointer-events: none;
 }
 
 .intro .slide-green {
@@ -9008,16 +9026,22 @@ form .form__box:last-of-type {
   grid-template-columns: 1fr 1fr 1fr;
   gap: 8px;
   overflow: visible;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
 }
 
 .card__slider.fullwidth {
   height: 500px;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
 }
 
 .card__slider.fullwidth .slider-item {
   height: 530px;
   line-height: 500px;
   width: 420px;
+  -ms-touch-action: pan-y;
+  touch-action: pan-y;
 }
 
 .card .slider-item.slide-dark1 {
@@ -10598,6 +10622,8 @@ form .form__box:last-of-type {
     transform-origin: 0 50%;
     -webkit-perspective: 1000px !important;
     perspective: 1000px !important;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
   }
 
   .card__slider .slider-item {
@@ -10605,6 +10631,8 @@ form .form__box:last-of-type {
     height: 550px;
     left: 0;
     position: absolute;
+    -ms-touch-action: pan-y;
+    touch-action: pan-y;
     top: 0;
     width: 420px;
     overflow: hidden;
