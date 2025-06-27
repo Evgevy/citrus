@@ -4865,6 +4865,11 @@ h2.title {
   -ms-transform: rotate(5deg);
   transform: rotate(5deg);
   pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  z-index: -1;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
