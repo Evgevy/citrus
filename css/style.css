@@ -4790,6 +4790,7 @@ h2.title {
 .intro .slide-green {
   background: -o-linear-gradient(305.9deg, #B7FF6A 1.45%, #CDEB69 85.52%);
   background: linear-gradient(144.1deg, #B7FF6A 1.45%, #CDEB69 85.52%);
+  z-index: -1 !important;
 }
 
 .intro .slide-green .slide-tag {
