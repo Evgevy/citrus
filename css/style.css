@@ -4657,7 +4657,6 @@ h2.title {
   -ms-flex-align: center;
   align-items: center;
   gap: 21px;
-  margin-bottom: 42px;
 }
 
 .intro__span {
@@ -4714,6 +4713,7 @@ h2.title {
   border-radius: 8px;
   display: inline;
   text-align: center;
+  margin-bottom: 20px;
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
@@ -4723,69 +4723,20 @@ h2.title {
   background: #85A716;
 }
 
-.intro #Carousel-slider {
-  margin-bottom: -40px;
-  padding-top: 40px;
-}
-
-.intro .Carousel-slider {
-  height: 500px;
-  position: relative;
-  width: 100%;
-  -ms-touch-action: pan-y;
-  touch-action: pan-y;
-  -webkit-transition: -webkit-transform 0.4s ease-in-out;
-  transition: -webkit-transform 0.4s ease-in-out;
-  -o-transition: transform 0.4s ease-in-out;
-  transition: transform 0.4s ease-in-out;
-  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
-}
-
-.intro .Carousel-slider.fullwidth {
-  height: 500px;
-  -ms-touch-action: pan-y;
-  touch-action: pan-y;
-  -webkit-transition: -webkit-transform 0.4s ease-in-out;
-  transition: -webkit-transform 0.4s ease-in-out;
-  -o-transition: transform 0.4s ease-in-out;
-  transition: transform 0.4s ease-in-out;
-  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
-}
-
-.intro .Carousel-slider.fullwidth .slider-item {
-  height: 530px;
-  line-height: 500px;
-  width: 420px;
-  -ms-touch-action: pan-y;
-  touch-action: pan-y;
-  -webkit-transition: -webkit-transform 0.4s ease-in-out;
-  transition: -webkit-transform 0.4s ease-in-out;
-  -o-transition: transform 0.4s ease-in-out;
-  transition: transform 0.4s ease-in-out;
-  transition: transform 0.4s ease-in-out, -webkit-transform 0.4s ease-in-out;
+.intro .intro__slider {
+  width: 850px;
+  margin-bottom: -80px;
 }
 
 .intro .slider-wrapper {
-  overflow: visible !important;
-  position: relative;
-  -webkit-transform-style: preserve-3d;
-  transform-style: preserve-3d;
-  -webkit-transform-origin: 0 50%;
-  -ms-transform-origin: 0 50%;
-  transform-origin: 0 50%;
-  -webkit-perspective: 1000px !important;
-  perspective: 1000px !important;
-  -ms-touch-action: pan-y;
-  touch-action: pan-y;
+  height: auto;
 }
 
-.intro .slider-item {
-  display: none;
+.intro .swiper-slide {
+  position: relative;
   height: 550px;
-  left: 0;
-  position: absolute;
   text-align: center;
-  top: 0;
+  aspect-ratio: 3/4;
   width: 420px;
   overflow: hidden;
   border-radius: 32px;
@@ -4897,6 +4848,10 @@ h2.title {
   -o-object-fit: contain;
   object-fit: contain;
   pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .intro .slide-green::before {
@@ -4921,7 +4876,7 @@ h2.title {
   right: 40px;
 }
 
-.intro .slider-item.slide-green.active .slide-image {
+.intro .swiper-slide.slide-green.active .slide-image {
   bottom: -10px;
   -webkit-transform: scale(1.1) rotate(5deg);
   -ms-transform: scale(1.1) rotate(5deg);
@@ -5015,6 +4970,10 @@ h2.title {
   -o-object-fit: contain;
   object-fit: contain;
   pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .intro .slide-dark::before {
@@ -5039,7 +4998,7 @@ h2.title {
   right: 40px;
 }
 
-.intro .slider-item.slide-dark.active .slide-image {
+.intro .swiper-slide.slide-dark.active .slide-image {
   width: 110%;
   height: 70%;
   bottom: 30px;
@@ -5138,6 +5097,10 @@ h2.title {
   -o-object-fit: contain;
   object-fit: contain;
   pointer-events: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 
 .intro .slide-white::before {
@@ -5162,7 +5125,7 @@ h2.title {
   right: 40px;
 }
 
-.intro .slider-item.slide-white.active .slide-image {
+.intro .swiper-slide.slide-white.active .slide-image {
   bottom: 45px;
   -webkit-transform: scale(1.1) rotate(-5deg);
   -ms-transform: scale(1.1) rotate(-5deg);
@@ -10903,6 +10866,11 @@ form .form__box:last-of-type {
   .form__subtitle {
     font-size: 40px;
   }
+
+  .intro .intro__slider {
+    width: 100%;
+    overflow-x: visible;
+  }
 }
 
 @media screen and (max-width: 800px) {
@@ -12090,7 +12058,7 @@ form .form__box:last-of-type {
     margin-bottom: 30px;
   }
 
-  .intro .slider-item {
+  .intro .swiper-slide {
     width: 320px;
   }
 
