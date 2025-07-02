@@ -4730,6 +4730,9 @@ h2.title {
 
 .intro .slider-wrapper {
   height: auto;
+  -webkit-transition-timing-function: cubic-bezier(0.32, 0.72, 0, 1) !important;
+  -o-transition-timing-function: cubic-bezier(0.32, 0.72, 0, 1) !important;
+  transition-timing-function: cubic-bezier(0.32, 0.72, 0, 1) !important;
 }
 
 .intro .swiper-slide {
@@ -4743,6 +4746,10 @@ h2.title {
   padding: 30px;
   -ms-touch-action: pan-y;
   touch-action: pan-y;
+  -webkit-transform-style: preserve-3d;
+  transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
 }
 
 .intro .slide-image {
