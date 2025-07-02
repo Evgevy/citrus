@@ -4884,6 +4884,12 @@ h2.title {
   right: 40px;
 }
 
+.intro .slide-green.swiper-slide-active .slide-image {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+}
+
 .intro .slide-dark {
   background: -o-linear-gradient(310.58deg, #252525 2.23%, #5C5C5C 97.41%);
   background: linear-gradient(139.42deg, #252525 2.23%, #5C5C5C 97.41%);
@@ -4997,6 +5003,12 @@ h2.title {
   background: rgba(20, 21, 17, 0.5);
   top: 40px;
   right: 40px;
+}
+
+.intro .slide-dark.swiper-slide-active .slide-image {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .intro .slide-white {
@@ -5114,6 +5126,12 @@ h2.title {
   background: rgb(197, 197, 196);
   top: 40px;
   right: 40px;
+}
+
+.intro .slide-white.swiper-slide-active .slide-image {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
 }
 
 .intro .slide-image img {
