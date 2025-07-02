@@ -4888,10 +4888,11 @@ h2.title {
 }
 
 .intro .slide-green.swiper-slide-active .slide-image {
-  bottom: -10px;
-  -webkit-transform: scale(1.1) rotate(5deg);
-  -ms-transform: scale(1.1) rotate(5deg);
-  transform: scale(1.1) rotate(5deg);
+  bottom: -20px;
+  -webkit-transform: scale(1) rotate(5deg);
+  -ms-transform: scale(1) rotate(5deg);
+  transform: scale(1) rotate(5deg);
+  left: -50px;
 }
 
 .intro .slide-dark {
@@ -12071,6 +12072,22 @@ form .form__box:last-of-type {
 
   .intro .swiper-slide {
     width: 320px;
+  }
+
+  .intro .slide-green .slide-image {
+    width: 340px;
+    height: 175px;
+    bottom: -80px;
+  }
+
+  .intro .slide-dark .slide-image {
+    bottom: 50px;
+  }
+
+  .intro .slide-white .slide-image {
+    width: 320px;
+    height: 400px;
+    left: -50px;
   }
 
   .workshop__image {
