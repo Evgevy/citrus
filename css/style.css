@@ -9637,6 +9637,11 @@ form .form__box:last-of-type {
 
 .tools .swiper-wrapper {
   height: auto;
+  -webkit-transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1) !important;
+  -o-transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1) !important;
+  transition-timing-function: cubic-bezier(0.25, 0.1, 0.25, 1) !important;
+  will-change: transform;
+  /* Оптимизация анимации */
 }
 
 .tools .swiper-slide {
@@ -9652,6 +9657,11 @@ form .form__box:last-of-type {
   border-radius: 32px;
   padding: 32px 24px 0;
   overflow: hidden;
+  -webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
+  transition: opacity 0.5s ease, -webkit-transform 0.5s ease;
+  -o-transition: transform 0.5s ease, opacity 0.5s ease;
+  transition: transform 0.5s ease, opacity 0.5s ease;
+  transition: transform 0.5s ease, opacity 0.5s ease, -webkit-transform 0.5s ease;
 }
 
 .tools .swiper-slide--m {
