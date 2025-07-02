@@ -4835,10 +4835,10 @@ h2.title {
 }
 
 .intro .slide-green .slide-image {
-  width: 400px;
+  width: 370px;
   height: 250px;
   position: relative;
-  bottom: -50px;
+  bottom: -70px;
   -webkit-transform: rotate(5deg);
   -ms-transform: rotate(5deg);
   transform: rotate(5deg);
@@ -4888,11 +4888,7 @@ h2.title {
 }
 
 .intro .slide-green.swiper-slide-active .slide-image {
-  bottom: -20px;
-  -webkit-transform: scale(1) rotate(5deg);
-  -ms-transform: scale(1) rotate(5deg);
-  transform: scale(1) rotate(5deg);
-  left: -50px;
+  bottom: 0px;
 }
 
 .intro .slide-dark {
@@ -5011,10 +5007,7 @@ h2.title {
 }
 
 .intro .slide-dark.swiper-slide-active .slide-image {
-  width: 110%;
-  height: 70%;
-  bottom: 30px;
-  left: -30px;
+  bottom: 110px;
 }
 
 .intro .slide-white {
@@ -5089,10 +5082,10 @@ h2.title {
 }
 
 .intro .slide-white .slide-image {
-  width: 450px;
-  height: 350px;
+  width: 400px;
+  height: 255px;
   position: relative;
-  bottom: 0px;
+  bottom: -60px;
   left: -75px;
   -webkit-transform: rotate(-5deg);
   -ms-transform: rotate(-5deg);
@@ -5138,10 +5131,8 @@ h2.title {
 }
 
 .intro .slide-white.swiper-slide-active .slide-image {
-  bottom: 45px;
-  -webkit-transform: scale(1.1) rotate(-5deg);
-  -ms-transform: scale(1.1) rotate(-5deg);
-  transform: scale(1.1) rotate(-5deg);
+  bottom: 0;
+  left: -40px;
 }
 
 .intro .slide-image img {
@@ -11013,6 +11004,10 @@ form .form__box:last-of-type {
     right: 16px;
   }
 
+  .intro .slide-green.swiper-slide-active .slide-image {
+    bottom: -20px;
+  }
+
   .intro .slide-dark .slide-title {
     font-size: 32px;
   }
@@ -11047,6 +11042,10 @@ form .form__box:last-of-type {
   .intro .slide-white::after {
     top: 34px;
     right: 16px;
+  }
+
+  .intro .slide-white.swiper-slide-active .slide-image {
+    bottom: -20px;
   }
 
   .marquee {
@@ -12088,6 +12087,10 @@ form .form__box:last-of-type {
     width: 320px;
     height: 400px;
     left: -50px;
+  }
+
+  .intro .slide-white.swiper-slide-active .slide-image {
+    bottom: 40px;
   }
 
   .workshop__image {
