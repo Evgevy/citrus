@@ -9334,7 +9334,7 @@ form .form__box:last-of-type {
 .tape__bgl {
   position: absolute;
   top: 120px;
-  right: 30px;
+  right: 60px;
 }
 
 .tape__wrapper {
@@ -12259,7 +12259,7 @@ form .form__box:last-of-type {
   }
 
   .tape__bg {
-    top: 240px;
+    top: 200px;
     left: 50%;
     -webkit-transform: translateX(-50%);
     -ms-transform: translateX(-50%);
