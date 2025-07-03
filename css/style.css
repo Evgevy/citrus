@@ -12056,14 +12056,38 @@ form .form__box:last-of-type {
     left: -65px;
   }
 
+  .intro .slide-green::before {
+    left: 30px;
+  }
+
+  .intro .slide-green::after {
+    right: 30px;
+  }
+
   .intro .slide-dark .slide-image {
     width: 400px;
     height: 300px;
     bottom: -15px;
   }
 
+  .intro .slide-dark::before {
+    left: 30px;
+  }
+
+  .intro .slide-dark::after {
+    right: 30px;
+  }
+
   .intro .slide-white .slide-image {
     left: -80px;
+  }
+
+  .intro .slide-white::before {
+    left: 30px;
+  }
+
+  .intro .slide-white::after {
+    right: 30px;
   }
 
   .workshop__image {
